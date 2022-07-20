@@ -1,0 +1,173 @@
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+    padding: 0rem 8rem;
+}
+
+.programa {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 40rem;
+    height: 40rem;
+    background-color: #fff;
+ 
+}
+
+.programa_cj-titulo {
+    width: 80%;
+    height: 5rem;
+    border: 0.2rem solid var(--text-color);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cj-titulo_texto {
+    font-size: var(--text-size2);
+}
+
+.bt_container {
+    padding: 0rem 2.6rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    width: 100%;
+}
+
+.bt_anterior {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 40%;
+    height: 5rem;
+    border-radius: 0.5rem;
+    margin-top: 3.5rem;
+
+    background-color: red;
+    cursor: pointer;
+}
+
+.bt_anterior:hover {
+    background-color: rosybrown;
+    transition: .3s;
+}
+
+.bt_anterior i {
+    color: #fff;
+    font-size: 3rem;
+}
+
+.siguiente {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 40%;
+    height: 5rem;
+    border-radius: 0.5rem;
+    margin-top: 3.5rem;
+
+    background-color: red;
+    cursor: pointer;
+}
+
+.siguiente:hover {
+    background-color: rosybrown;
+    transition: .3s;
+}
+
+.siguiente i {
+    color: #fff;
+    font-size: 3rem;
+}
+
+.cambiar-color {
+    background-color: grey;
+}
+
+.form {
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inp {
+    width: 50%;
+    height: 5rem;
+    border-radius: 0.8rem;
+    outline: none;
+    border: none;
+    margin-bottom: 3.5rem;
+    padding: 1rem;
+    background-color: rgb(209, 248, 209);
+}
+
+::placeholder {
+    text-align: center;
+}
+
+.ver {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 30%;
+    height: 5rem;
+    border-radius: 0.5rem;
+    margin-top: 2.5rem;
+
+    border: 0.1rem solid var(--text-color);
+    cursor: pointer;
+    color: #000;
+    font-size: 1.5rem;
+}
+
+.ver:hover {
+    background-color: rosybrown;
+    transition: .3s;
+}
+
+.datos_programa {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 40rem;
+    height: 40rem;
+    text-align: center;
+    background-color: #fff;
+
+}
+
+.datos {
+    color: #000;
+    font-size: 1.6rem;
+    padding: 1.3rem 0rem;
+}
+
+b {
+    color:rosybrown;
+}
+
+.titulo {
+    font-size: 1.5rem;
+    padding-bottom: 1rem;
+}
+
+body {
+    background-color: rosybrown;
+}

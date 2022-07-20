@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+    font-family: sans-serif;
+}
+
+:root {
+    --bt-color: #399c6e;
+    --text-color: #040320;
+
+    --text-size: 1.2rem;
+    --text-size2: 1.4rem;
+    --text-size3: 1.6rem;
+}
